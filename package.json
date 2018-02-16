@@ -1,0 +1,43 @@
+{
+  "name": "smooch-interview",
+  "version": "1.0.0",
+  "description": "Test During Smooch Interview",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "build:watch": "yarn clean && tsc -w",
+    "clean": "rm -rf ./dist",
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "start": "ts-node src/index.ts",
+    "test": "yarn lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxlemire/Smooch-Interview.git"
+  },
+  "bugs": {
+    "email": "fxlemire@webjomp.com",
+    "url": "https://github.com/fxlemire/Smooch-Interview/issues"
+  },
+  "homepage": "https://github.com/fxlemire/Smooch-Interview.git#README",
+  "author": "Francois-Xavier Lemire <fxlemire@webjomp.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/inquirer": "^0.0.36",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^9.4.6",
+    "@types/request": "^2.47.0",
+    "@types/request-promise": "^4.1.41",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.6.0",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "moment": "^2.20.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}

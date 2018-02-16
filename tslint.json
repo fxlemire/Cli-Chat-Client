@@ -1,0 +1,24 @@
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "no-for-in-array": true,
+    "no-null-keyword": true,
+    "no-unused-variable": [true],
+    "no-use-before-declare": true,
+    "restrict-plus-operands": true,
+    "strict-boolean-expressions": [true, "allow-number", "allow-string", "allow-undefined-union"],
+    "max-line-length": [true, 140],
+    "object-literal-sort-keys": false,
+    "import-name": false,
+    "completed-docs": [false, "classes", "functions"],
+    "no-boolean-literal-compare": true,
+    "no-increment-decrement": false,
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "lowercase-last",
+        "named-imports-order": "lowercase-last"
+      }
+    ]
+  }
+}
